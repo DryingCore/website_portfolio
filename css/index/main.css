@@ -1,0 +1,32 @@
+main {
+	margin-top: 10%;
+	width: 50%;
+}
+
+.hello {
+	text-indent: 10%;
+	font-weight: 400;
+	font-size: 1.5rem;
+	font-family: "Libre Baskerville", serif;
+}
+
+.programmer {
+	text-indent: 10%;
+	font-weight: 700;
+	font-family: "Libre Baskerville", serif;
+}
+
+.programmer > strong {
+	color: red;
+}
+
+.paragraph {
+	padding-left: 10%;
+	font-size: 1rem;
+	line-height: 2rem;
+	font-family: "Libre Baskerville", serif;
+}
+
+.paragraph > strong {
+	color: red;
+}

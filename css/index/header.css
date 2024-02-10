@@ -1,0 +1,57 @@
+header {
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+}
+
+.logo {
+	font-family: "Protest Revolution", sans-serif;
+	font-size: 1.2rem;
+}
+
+.nav ul {
+	list-style: none;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-family: "Libre Baskerville", serif;
+	font-size: 0.9rem;
+}
+
+.nav li {
+	padding: 2%;
+}
+
+.language ul {
+	text-align: center;
+	list-style: none;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-family: "Libre Baskerville", serif;
+	font-size: 0.9rem;
+}
+
+.language li {
+	padding: 2%;
+}
+
+@media screen and (max-width: 768px) {
+	header {
+		margin: auto;
+		display: grid;
+		justify-content: center;
+	}
+
+	header li {
+		display: grid;
+		justify-content: center;
+		font-size: 9pt;
+	}
+
+	.logo {
+		text-align: center;
+		font-family: "Protest Revolution", sans-serif;
+		font-size: 1.2rem;
+	}
+}

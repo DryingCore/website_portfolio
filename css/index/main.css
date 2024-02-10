@@ -30,3 +30,15 @@ main {
 .paragraph > strong {
 	color: red;
 }
+
+@media screen and (max-width: 768px) {
+	main {
+		width: 100%;
+		/* background-color: aqua; */
+	}
+
+	.programmer {
+		text-indent: 0;
+		text-align: center;
+	}
+}

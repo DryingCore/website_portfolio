@@ -1,14 +1,34 @@
+/* import of the effects to the header */
+@import url(header_effects.css);
+
+/* header rules */
 header {
 	display: flex;
 	align-items: center;
 	justify-content: space-evenly;
 }
 
+/* root variables */
+:root {
+	--white-themeColor: black;
+	--white-ThemeHover: cadetblue;
+	--black-themeColor: white;
+	--blackThemeHover: gray
+}
+
+/* link tags rules (the page nav) */
+a {
+	text-decoration: none;
+	color: black;
+}
+
+/* logo rules (my name) */
 .logo {
 	font-family: "Protest Revolution", sans-serif;
 	font-size: 1.2rem;
 }
 
+/* nav ul rules */
 .nav ul {
 	list-style: none;
 	display: flex;
@@ -18,10 +38,12 @@ header {
 	font-size: 0.9rem;
 }
 
+/* nav li rules */
 .nav li {
 	padding: 2%;
 }
 
+/* language ul rules */
 .language ul {
 	text-align: center;
 	list-style: none;
@@ -32,10 +54,12 @@ header {
 	font-size: 0.9rem;
 }
 
+/* language li rules */
 .language li {
 	padding: 2%;
 }
 
+/* theme ul rules */
 .theme ul {
 	display: flex;
 	align-items: center;
@@ -44,11 +68,13 @@ header {
 	font-size: 0.9rem;
 }
 
+/* theme li rules */
 .theme li {
 	list-style: none;
 	padding: 2%;
 }
 
+/* responsive layout rules */
 @media screen and (max-width: 768px) {
 	header {
 		margin: auto;
